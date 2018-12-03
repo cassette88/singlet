@@ -10,20 +10,12 @@ const divStyle ={
  // backgroundSize: 'contain',
   backgroundPosition: 'center',
   backgroundSize: 'cover',
-  
-  
-};
+  };
 
 let title = "";
 let quote = "";
 let amp = "";
 
-// let howbahdatnow = '';
-// let howbahdis = "";
-// let howbahdisnow = howbahdis.split('&');
-// const AO = '15448895809267087340';
-// const RG = '12841317596821167479';
-//let   id = '7130462090718037575'
 
 class Story extends React.Component  {
    constructor(props) {
@@ -39,34 +31,18 @@ title = storyTitle.replace(/&#39;/g, "'");
 quote = title.replace(/&quot;/g, " \" ");
 amp = quote.replace(/&amp;/g, "and");
 
-//howbahdatnow = howbahdat.split('&');
-
-
-
 }
 
-// fetchRss (id) {
 
-//   axios.get(`/rss/${id}`)
-//   .then(res => {
-//      const tennis = res.data.items;
-//     // (console.log(res.data));
-//       this.setState({tennis: tennis});
-//       this.setState({newTennis: false})
-//       howbahdisnow = howbahdis.split('&');
-//   })
-//   .catch(err => console.log(err));
-
-// }
 
 
 render(){
  return (   
    
   
-  <div className="col-lg-4 col-md-6 col-sm-6" align="center" style={divStyle}>
+  <div className="col-lg-4 col-md-6 col-sm-6" align="center">
      <div className="card-body">
-    {/* <img className="card-img-top" src={require('./ball.png')} alt="tennis ball" /> */}
+    <img className="img-fluid" src={require('./img/tb.jpg')} alt="wrestler" />
 
      
      <a href={this.props.link}><p className="cordele">{amp}....</p></a>
