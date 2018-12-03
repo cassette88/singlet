@@ -5,7 +5,11 @@
   padding: 0;
   box-sizing: inherit;
 }
-
+.tester{
+  background-image: url('./img/tb.jpg');
+  background-size: contain cover;
+  background-position: top;
+}
 .headline {
   font-family: 'IM Fell English SC', serif;
   font-size: 250%;
@@ -15,7 +19,7 @@
 .cordele {
   font-family: 'Playfair Display', serif;
   font-size: 1.8em;
-  color: black;
+  color: white;
   letter-spacing: 5px;
   font-weight: 900;
   	
@@ -41,10 +45,10 @@ width: 5px;
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(-30px);
   }
   80% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
   100% {
     opacity: 1;

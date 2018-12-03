@@ -42,7 +42,7 @@ render(){
   
   <div className="col-lg-4 col-md-6 col-sm-6" align="center">
      <div className="card-body">
-    <img className="img-fluid" src={require('./img/tb.jpg')} alt="wrestler" />
+    <img className="img-fluid" src={require('./img/yianni-cam.jpg')} alt="wrestler" />
 
      
      <a href={this.props.link}><p className="cordele">{amp}....</p></a>
