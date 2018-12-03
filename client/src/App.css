@@ -5,10 +5,15 @@
   padding: 0;
   box-sizing: inherit;
 }
+ .bottom {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
 .tester{
   background-image: url('./img/tb.jpg');
-  background-size: contain cover;
+  background-size: contain;
   background-position: top;
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%) */
 }
 .headline {
   font-family: 'IM Fell English SC', serif;
