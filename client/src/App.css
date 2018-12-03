@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.headline {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 250%;
+  margin: 5px;
+}
+
+/* 
+img {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
+
+/* .Eatery {
+  width: 60%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 16px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1501520158826-76df880863a3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fcfb4406dd853f2495004eefda3ccdeb&auto=format&fit=crop&w=400&q=60");
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.biz-name {
+  margin-top: 5px;
+  font-family: 'Bitter', serif;
+	font-weight: bold;
+	font-size: 2em;
+} */
+.cordele {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8em;
+  color: black;
+  letter-spacing: 5px;
+  font-weight: 900;
+  	
+text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+animation-name: moveInBottom;
+animation-duration: 3s;
+
+  /* background-color: blue; */
+}
+/* font-family: 'Spicy Rice', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Arimo', sans-serif; */
+
+.card-img-top {
+width: 5px;
+}
+  
+.navspace {
+  margin: 4px;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+
+}
