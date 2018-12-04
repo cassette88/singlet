@@ -9,6 +9,16 @@
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } 
 
+/* .tester:after{
+  content: '';
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.697);
+} */
 .tester{
   background-image: url('./img/tb.jpg');
   background-size: contain;
@@ -24,9 +34,10 @@
 .cordele {
   font-family: 'Playfair Display', serif;
   font-size: 1.8em;
-  color: white;
+  color: lightblue;
   letter-spacing: 5px;
   font-weight: 900;
+  filter: brightness(150%);
   	
 text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 animation-name: moveInBottom;

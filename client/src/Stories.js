@@ -49,6 +49,7 @@ export default class Stories extends Component {
                   
                              key={id_}
                              title= {headline.title}
+                             description = {headline.description}
                             // content={headline.contentSnippet}
                              link={headline.link}
                               /> 

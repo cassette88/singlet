@@ -15,6 +15,13 @@ const divStyle ={
 let title = "";
 let quote = "";
 let amp = "";
+let title_ = "";
+let quote_ = "";
+let amp_  = "";
+let bold = "";
+let bold_ = "";
+let space = "";
+
 
 
 class Story extends React.Component  {
@@ -31,6 +38,14 @@ title = storyTitle.replace(/&#39;/g, "'");
 quote = title.replace(/&quot;/g, " \" ");
 amp = quote.replace(/&amp;/g, "and");
 
+const descript = this.props.description;
+title_ = descript.replace(/&#39;/g, "'");
+quote_ = title_.replace(/&quot;/g, " \" ");
+amp_ = quote_.replace(/&amp;/g, "and");
+bold = amp_.replace(/<b>/g, "");
+bold_ = bold.replace(/<\/b>/g, "");
+space = bold_.replace(/&nbsp;/g, "");
+
 }
 
 
@@ -46,6 +61,7 @@ render(){
 
      
      <a href={this.props.link}><p className="cordele">{amp}....</p></a>
+     <p className="cordele">{space}</p>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
      </div>
         </div>  
