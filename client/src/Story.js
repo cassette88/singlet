@@ -22,17 +22,27 @@ let amp_  = "";
 let bold = "";
 let bold_ = "";
 let space = "";
-
+var rImage = "";
 
 
 class Story extends React.Component  {
    constructor(props) {
         super(props);
 
+        this.rImages = [require('./img/jaydin-eierman-nick-lee.jpg'),require('./img/micah-jordan-tyler-berger.jpg'), 
+                        require('./img/tb.jpg'),require('./img/yianni-cam.jpg'), require('./img/tariq-wilson.jpg'),
+                        require('./img/drake-foster.jpg'), require('./img/zach-zavastsky.jpg'),
+                      require('./img/cam-sykora-cam-kelly.jpg'), require('./img/jacob-schwarm.jpg'),
+                      require('./img/dom-forys-corey-keener.jpg'), require('./img/dean-heil-evan-cheek.jpg'),
+                    require('./img/vince-turk-cole-weaver.jpg'), require('./img/beau-donahue.jpg'),
+                  require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg') ]
         this.state = {
           newTennis: true,
           tennis:[]
         }
+
+var randomInt = Math.floor(Math.random() * this.rImages.length)
+rImage = this.rImages[randomInt]
 
 const storyTitle = this.props.title;
 title = storyTitle.replace(/&#39;/g, "'");
@@ -56,15 +66,15 @@ render(){
  return (   
    
   
-  <div className="col-lg-4 col-md-6 col-sm-6" align="center">
+  <div className="col-lg-4 col-md-6 col-sm-6 space" align="center">
      <div className="card-body bottom">
      <a href={this.props.link}><h3 className="cordele">{amp}....</h3>
-    <img className="img-fluid bottom" src={require('./img/tb.jpg')} alt="wrestler" />
+    <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
      <p className="headline">{space}</p></a>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
      </div>
         </div>  
-
+// src={require('./img/tb.jpg')}
 
 
     );
