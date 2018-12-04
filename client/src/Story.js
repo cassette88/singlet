@@ -56,11 +56,9 @@ render(){
    
   
   <div className="col-lg-4 col-md-6 col-sm-6" align="center">
-     <div className="card-body">
-    <img className="img-fluid bottom" src={require('./img/yianni-cam.jpg')} alt="wrestler" />
-
-     
+     <div className="card-body bottom">
      <a href={this.props.link}><p className="cordele">{amp}....</p></a>
+    <img className="img-fluid bottom" src={require('./img/yianni-cam.jpg')} alt="wrestler" />
      <p className="cordele">{space}</p>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
      </div>
