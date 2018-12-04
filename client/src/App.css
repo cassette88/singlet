@@ -19,32 +19,45 @@
   position: absolute;
   background: rgba(255, 255, 255, 0.697);
 } */
-.tester{
-  background-image: url('./img/yianni-cam.jpg');
+/* .tester{
+  background-image: url('./img/nick-wanzek-keilan-torres.jpg');
   background-size: contain;
   background-position: top;
-  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%) */
-}
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%) 
+  } 
+  */
+
 .headline {
   font-family: 'IM Fell English SC', serif;
   font-size: 150%;
   margin: 5px;
-  color:white;
+  color:black;
 }
 
 .cordele {
   font-family: 'Playfair Display', serif;
   font-size: 1.8em;
-  color: lightblue;
-  letter-spacing: 5px;
+  color: black;
+  letter-spacing: 4px;
   font-weight: 900;
   filter: brightness(150%);
   	
-text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
 animation-name: moveInBottom;
 animation-duration: 3s;
 
   /* background-color: blue; */
+}
+
+.cordele_2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2em;
+  color: black;
+  letter-spacing: 3px;
+  font-weight: 900;
+  filter: brightness(150%);
+  	
+
 }
 
 

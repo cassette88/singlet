@@ -3,10 +3,10 @@ import ball from './img/tb.jpg';
 import yianni from './img/yianni-cam.jpg';
 
 
-
+let rBackImg = [require('./img/nick-wanzek-keilan-torres.jpg'),require('./img/yianni-cam.jpg')]
 
 const divStyle ={
-  backgroundImage: `url(${yianni})`,
+  backgroundImage: `url(${rBackImg})`,
   //backgroundImage: 'url("https://images.unsplash.com/photo-1535480436112-07697fcbcbea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=31f51839cb4319385e043204acd13491&auto=format&fit=crop&w=400&q=60")',
  // backgroundSize: 'contain',
   backgroundPosition: 'center',
@@ -29,13 +29,15 @@ class Story extends React.Component  {
    constructor(props) {
         super(props);
 
+        
         this.rImages = [require('./img/jaydin-eierman-nick-lee.jpg'),require('./img/micah-jordan-tyler-berger.jpg'), 
                         require('./img/tb.jpg'),require('./img/yianni-cam.jpg'), require('./img/tariq-wilson.jpg'),
                         require('./img/drake-foster.jpg'), require('./img/zach-zavastsky.jpg'),
                       require('./img/cam-sykora-cam-kelly.jpg'), require('./img/jacob-schwarm.jpg'),
                       require('./img/dom-forys-corey-keener.jpg'), require('./img/dean-heil-evan-cheek.jpg'),
                     require('./img/vince-turk-cole-weaver.jpg'), require('./img/beau-donahue.jpg'),
-                  require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg') ]
+                  require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg'),
+                require('./img/johnny-sebastian.jpg') ]
         this.state = {
           newTennis: true,
           tennis:[]
@@ -66,12 +68,13 @@ render(){
  return (   
    
   
-  <div className="col-lg-4 col-md-6 col-sm-6 space" align="center">
+  <div style={divStyle}className="col-lg-4 col-md-6 col-sm-6 space" align="center">
      <div className="card-body bottom">
-     <a href={this.props.link}><h3 className="cordele">{amp}....</h3>
+     <h3 className="cordele">{amp}....</h3>
     <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
-     <p className="headline">{space}</p></a>
+     <h2 className="cordele_2">{space}</h2>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
+     <a href={this.props.link}><button type="button"className="btn btn-primary nav-item navspace">Go to Story</button></a>
      </div>
         </div>  
 // src={require('./img/tb.jpg')}
