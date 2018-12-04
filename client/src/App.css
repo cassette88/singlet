@@ -20,15 +20,16 @@
   background: rgba(255, 255, 255, 0.697);
 } */
 .tester{
-  background-image: url('./img/tb.jpg');
+  background-image: url('./img/yianni-cam.jpg');
   background-size: contain;
   background-position: top;
   /* clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%) */
 }
 .headline {
   font-family: 'IM Fell English SC', serif;
-  font-size: 250%;
+  font-size: 150%;
   margin: 5px;
+  color:white;
 }
 
 .cordele {
@@ -45,6 +46,8 @@ animation-duration: 3s;
 
   /* background-color: blue; */
 }
+
+
 /* font-family: 'Spicy Rice', cursive;
 font-family: 'Playfair Display', serif;
 font-family: 'Kumar One Outline', cursive;

@@ -1,11 +1,12 @@
 import React from  'react';
 import ball from './img/tb.jpg';
+import yianni from './img/yianni-cam.jpg';
 
 
 
 
 const divStyle ={
-  backgroundImage: `url(${ball})`,
+  backgroundImage: `url(${yianni})`,
   //backgroundImage: 'url("https://images.unsplash.com/photo-1535480436112-07697fcbcbea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=31f51839cb4319385e043204acd13491&auto=format&fit=crop&w=400&q=60")',
  // backgroundSize: 'contain',
   backgroundPosition: 'center',
@@ -57,9 +58,9 @@ render(){
   
   <div className="col-lg-4 col-md-6 col-sm-6" align="center">
      <div className="card-body bottom">
-     <a href={this.props.link}><p className="cordele">{amp}....</p></a>
-    <img className="img-fluid bottom" src={require('./img/yianni-cam.jpg')} alt="wrestler" />
-     <p className="cordele">{space}</p>
+     <a href={this.props.link}><h3 className="cordele">{amp}....</h3>
+    <img className="img-fluid bottom" src={require('./img/tb.jpg')} alt="wrestler" />
+     <p className="headline">{space}</p></a>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
      </div>
         </div>  
