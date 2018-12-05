@@ -1,6 +1,6 @@
 import React from  'react';
-import ball from './img/tb.jpg';
-import yianni from './img/yianni-cam.jpg';
+// import ball from './img/tb.jpg';
+// import yianni from './img/yianni-cam.jpg';
 
 
 let rBackImg = [require('./img/nick-wanzek-keilan-torres.jpg'),require('./img/yianni-cam.jpg')]
@@ -74,9 +74,11 @@ render(){
    
   
   <div style={divStyle}className="col-lg-4 col-md-6 col-sm-6 space" align="center">
+ 
      <div className="card-body bottom">
+     <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
      <h3 className="cordele">{amp}....</h3>
-    <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
+     
      <h2 className="cordele_2">{space}</h2>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
      <a href={this.props.link}><button type="button"className="btn btn-primary nav-item navspace">Go to Story</button></a>

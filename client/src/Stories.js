@@ -41,8 +41,8 @@ export default class Stories extends Component {
         
         let headlines = null;
         headlines = (
-                
-                <div className="d-flex flex-row flex-wrap justify-content-around">
+                <div className="row">
+                 {/* <div className="d-flex flex-row flex-wrap justify-content-around"> */}
                  { this.state.headlines.map((headline) => {
                      const id_ = uuidv4();
                   return  <Story headline={this.state.headlines}
@@ -61,12 +61,14 @@ export default class Stories extends Component {
                         
                         <div>
                         {/* <div className="d-flex flex-row justify-content-center"> */}
+                        <h1 align="center">College Singlet</h1>
+                        <h2 align="center">Random Pictures. Real Headlines.</h2>
                        <div>
                         <div>
                         <ol className="nav justify-content-center">
-                       <button type="button"className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "ncaa")}>Ncaa</button>
-                       <button type="button" className="btn btn-primary nav-item navspace"  onClick={this.fetchRss.bind(this, "general")}>General</button>
-                       <button type="button" className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "college")}>College</button>
+                       <button type="button"className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "ncaa")}>One</button>
+                       <button type="button" className="btn btn-primary nav-item navspace"  onClick={this.fetchRss.bind(this, "general")}>Two</button>
+                       <button type="button" className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "college")}>Three</button>
 
                        </ol>
                         </div>
