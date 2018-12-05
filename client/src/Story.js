@@ -35,11 +35,14 @@ class Story extends React.Component  {
                         require('./img/drake-foster.jpg'), require('./img/zach-zavastsky.jpg'),
                       require('./img/cam-sykora-cam-kelly.jpg'), require('./img/jacob-schwarm.jpg'),
                       require('./img/dom-forys-corey-keener.jpg'), require('./img/dean-heil-evan-cheek.jpg'),
-                    require('./img/vince-turk-cole-weaver.jpg'), require('./img/beau-donahue.jpg'),
-                  require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg'),
-                require('./img/johnny-sebastian.jpg'), require('./img/zander-wick-eric-barone.jpg'),
-              require('./img/andrew-schulte.jpg'),require('./img/shane-onufer-joe-latham.jpg'),
-            require('./img/keaton-subjeck.jpg') ]
+                      require('./img/vince-turk-cole-weaver.jpg'), require('./img/beau-donahue.jpg'),
+                    require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg'),
+                  require('./img/johnny-sebastian.jpg'), require('./img/zander-wick-eric-barone.jpg'),
+                require('./img/andrew-schulte.jpg'),require('./img/shane-onufer-joe-latham.jpg'),
+              require('./img/keaton-subjeck.jpg'),require('./img/nate-limmex.jpg'),
+              require('./img/kanen-storr-mason-smith.jpg'),require('./img/drew-mattin-christian-moody.jpg'),
+              require('./img/dane-pestano-mike-battista.jpg'), require('./img/bo-jordan-keaton-subjeck.jpg'),
+              require('./img/connor-schram-bracken-mead.jpg') ]
         this.state = {
           newTennis: true,
           tennis:[]
