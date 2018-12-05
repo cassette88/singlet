@@ -73,7 +73,8 @@ export default class Stories extends Component {
                        </ol>
                         </div>
                         </div>
-                        <div className="row d-flex flex-row tester">
+                        <div>
+                        {/* <div className="row d-flex flex-row tester"> */}
                       {headlines}
                         </div>
                         </div>
