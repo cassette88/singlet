@@ -62,7 +62,7 @@ export default class Stories extends Component {
                         <div>
                         {/* <div className="d-flex flex-row justify-content-center"> */}
                         <h1 align="center">College Singlet</h1>
-                        <h2 align="center">Random Pictures. Real Headlines.</h2>
+                        <h2 align="center">Random* Pictures. Real Headlines.</h2>
                        <div>
                         <div>
                         <ol className="nav justify-content-center">
