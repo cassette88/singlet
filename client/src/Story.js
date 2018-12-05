@@ -37,7 +37,9 @@ class Story extends React.Component  {
                       require('./img/dom-forys-corey-keener.jpg'), require('./img/dean-heil-evan-cheek.jpg'),
                     require('./img/vince-turk-cole-weaver.jpg'), require('./img/beau-donahue.jpg'),
                   require('./img/tyler-berger-joseph-velliquette.jpg'), require('./img/nick-wanzek-keilan-torres.jpg'),
-                require('./img/johnny-sebastian.jpg') ]
+                require('./img/johnny-sebastian.jpg'), require('./img/zander-wick-eric-barone.jpg'),
+              require('./img/andrew-schulte.jpg'),require('./img/shane-onufer-joe-latham.jpg'),
+            require('./img/keaton-subjeck.jpg') ]
         this.state = {
           newTennis: true,
           tennis:[]
