@@ -42,7 +42,12 @@ class Story extends React.Component  {
               require('./img/keaton-subjeck.jpg'),require('./img/nate-limmex.jpg'),
               require('./img/kanen-storr-mason-smith.jpg'),require('./img/drew-mattin-christian-moody.jpg'),
               require('./img/dane-pestano-mike-battista.jpg'), require('./img/bo-jordan-keaton-subjeck.jpg'),
-              require('./img/connor-schram-bracken-mead.jpg') ]
+              require('./img/connor-schram-bracken-mead.jpg'),require('./img/mike-longo-alec-opsal.jpg' ),
+              require('./img/jared-haught-cordell-eaton.jpg'),require('./img/dylan-lyndy.jpg'),
+              require('./img/cory-reed.jpg'),require('./img/nathan-traxler-aaron-paddock.jpg'),
+              require('./img/dean-heil-timmy-box.jpg'),require('./img/jason-tsirtsis-boo-lewallen.jpg'),
+              require('./img/jonathon-chavez-zav-carson.jpg'),require('./img/jonathon-chavez-zav-carson.jpg')
+            ]
         this.state = {
           newTennis: true,
           tennis:[]
