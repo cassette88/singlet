@@ -63,6 +63,7 @@ export default class Stories extends Component {
                         {/* <div className="d-flex flex-row justify-content-center"> */}
                         <h1 align="center">College Singlet</h1>
                         <h2 align="center">Random* Pictures. Real Headlines.</h2>
+                       
                        <div>
                         <div>
                         <ol className="nav justify-content-center">
@@ -71,6 +72,7 @@ export default class Stories extends Component {
                        <button type="button" className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "college")}>Three</button>
 
                        </ol>
+                       <p align="center">(photo credits below)</p>
                         </div>
                         </div>
                         <div>
