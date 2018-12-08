@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
+    "heroku-ssl-redirect": "0.0.4",
     "mongodb": "^3.1.9",
     "rss-node-mongo": "^1.0.3",
     "rss-parser": "^3.5.4"

@@ -1,3 +1,4 @@
+const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -14,6 +15,9 @@ MongoClient.connect(db, {useNewUrlParser: true}, function (err, client) {
 mongodb = client.db('wrestling');
 console.log("Wrestling database is flowing");
 })
+
+//enable ssl redirect
+app.use(sslRedirect());
 
 const college = 
 {
