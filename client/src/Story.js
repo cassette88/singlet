@@ -1,4 +1,6 @@
 import React from  'react';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 // import ball from './img/tb.jpg';
 // import yianni from './img/yianni-cam.jpg';
 
@@ -85,12 +87,17 @@ render(){
   <div style={divStyle}className="col-lg-4 col-md-6 col-sm-6 space" align="center">
  
      <div className="card-body bottom">
+     <Zoom>
      <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
+     </Zoom>
      <h3 className="cordele">{amp}....</h3>
-     
+     <Fade bottom>
      <h2 className="cordele_2">{space}</h2>
+     </Fade>
      {/* <img className="card-img-bottom" src={ball} alt="tennis ball" /> */}
+     
      <a href={this.props.link}><button type="button"className="btn btn-primary nav-item navspace">Go to Story</button></a>
+     
      </div>
         </div>  
 // src={require('./img/tb.jpg')}
