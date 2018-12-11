@@ -1,6 +1,7 @@
 import React from  'react';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
+var uniqueRandomArray = require('unique-random-array');
 // import ball from './img/tb.jpg';
 // import yianni from './img/yianni-cam.jpg';
 
@@ -24,7 +25,7 @@ let amp_  = "";
 let bold = "";
 let bold_ = "";
 let space = "";
-var rImage = "";
+var rImages = "";
 
 
 class Story extends React.Component  {
@@ -32,7 +33,7 @@ class Story extends React.Component  {
         super(props);
 
         
-        this.rImages = [require('./img/jaydin-eierman-nick-lee.jpg'),require('./img/micah-jordan-tyler-berger.jpg'), 
+        rImages = uniqueRandomArray([require('./img/jaydin-eierman-nick-lee.jpg'),require('./img/micah-jordan-tyler-berger.jpg'), 
                         require('./img/tb.jpg'),require('./img/yianni-cam.jpg'), require('./img/tariq-wilson.jpg'),
                         require('./img/drake-foster.jpg'), require('./img/zach-zavastsky.jpg'),
                       require('./img/cam-sykora-cam-kelly.jpg'), require('./img/jacob-schwarm.jpg'),
@@ -68,14 +69,14 @@ class Story extends React.Component  {
               require('./img/steven-lawrence-hunter-washburn.jpg'),require('./img/hunter-stieber-michael-nevinger.jpg'),
               require('./img/chaz-polson-dakota-juarez.jpg'),require('./img/zach-sherman-cam-sykora.jpg'),
               require('./img/paul-bianchi.jpg'),require('./img/zac-carson-branson-ashworth.jpg')
-            ]
+        ]);
         this.state = {
           newTennis: true,
           tennis:[]
         }
 
-var randomInt = Math.floor(Math.random() * this.rImages.length)
-rImage = this.rImages[randomInt]
+// var randomInt = Math.floor(Math.random() * this.rImages.length)
+// rImage = this.rImages[randomInt]
 
 const storyTitle = this.props.title;
 title = storyTitle.replace(/&#39;/g, "'");
@@ -103,7 +104,7 @@ render(){
  
      <div className="card-body bottom">
      <Zoom>
-     <img src ={rImage} className="img-fluid bottom"  alt="wrestler" />
+     <img src ={rImages()} className="img-fluid bottom"  alt="wrestler" />
      </Zoom>
      <h3 className="cordele">{amp}....</h3>
      <Fade bottom>

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Story from './Story';
+
+
 const uuidv4 = require('uuid/v4');
 
 export default class Stories extends Component {
@@ -79,6 +81,7 @@ export default class Stories extends Component {
                         {/* <div className="row d-flex flex-row tester"> */}
                       {headlines}
                         </div>
+                      
                         <div>
                         <ol className="nav justify-content-center">
                        <button type="button"className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "ncaa")}>One</button>
