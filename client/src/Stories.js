@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Story from './Story';
+import { animateScroll as scroll } from 'react-scroll'
 
 
 const uuidv4 = require('uuid/v4');
@@ -38,6 +39,10 @@ export default class Stories extends Component {
         // (console.log(res.data.items));
     
     }
+
+    scrollToTop() {
+        scroll.scrollToTop();
+      }
 
     render() {
         
@@ -82,12 +87,9 @@ export default class Stories extends Component {
                       {headlines}
                         </div>
                       
-                        <div>
-                        <ol className="nav justify-content-center">
-                       <button type="button"className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "ncaa")}>One</button>
-                       <button type="button" className="btn btn-primary nav-item navspace"  onClick={this.fetchRss.bind(this, "general")}>Two</button>
-                       <button type="button" className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "college")}>Three</button>
-                       </ol>
+                        <div align="center">
+                        <button align="center" type="button" class="btn btn-success"><a onClick={this.scrollToTop}>To the top!</a></button>
+
                        </div>
                         </div>
                             )
