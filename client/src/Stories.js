@@ -79,6 +79,13 @@ export default class Stories extends Component {
                         {/* <div className="row d-flex flex-row tester"> */}
                       {headlines}
                         </div>
+                        <div>
+                        <ol className="nav justify-content-center">
+                       <button type="button"className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "ncaa")}>One</button>
+                       <button type="button" className="btn btn-primary nav-item navspace"  onClick={this.fetchRss.bind(this, "general")}>Two</button>
+                       <button type="button" className="btn btn-primary nav-item navspace" onClick={this.fetchRss.bind(this, "college")}>Three</button>
+                       </ol>
+                       </div>
                         </div>
                             )
         
