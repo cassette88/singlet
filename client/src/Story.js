@@ -72,11 +72,15 @@ class Story extends React.Component  {
               require('./img/ac-headlee.jpg'),require('./img/anthony-valencia-jonathan-carrera.jpg'),
               require('./img/dalton-macri-esco-walker.jpg'),require('./img/tyler-berger-seth-harrington.jpg'),
               require('./img/zach-sherman-cam-skycora.jpg'),require('./img/lorenzo-de-la-riva-logan-parks.jpg'),
-
               require('./img/trent-olsen-ethan-rotundo.jpg'),require('./img/matt-finesilver-keaton-subjeck2.jpg'),
               require('./img/matt-finesilver-keaton-subjeck.jpg'),require('./img/lorenzo-de-la-riva-logan-parks2.jpg'),
               require('./img/kyle-gilva-jacoby-ward.jpg'),require('./img/Jacob Macalolooy vs Hunter Marko2.jpg'),
-              require('./img/Jacob Macalolooy vs Hunter Marko.jpg'),require('./img/Coleman-Hammond-Seth Harrington.jpg')
+              require('./img/Jacob Macalolooy vs Hunter Marko.jpg'),require('./img/Coleman-Hammond-Seth Harrington.jpg'),
+              require('./img/Anthony-Lombardo-Hank-Swalla.jpg'),require('./img/Christian-Moody-Luke-Welch.jpg'),
+              require('./img/Dominic-Forys-DJ-Lloren.jpg'),require('./img/Dominic-Forys-DJ-Lloren2.jpg'),
+              require('./img/Hank-Swalla-Anthony-Lombardo2.jpg'),require('./img/Kanen-Storr-Mason Smith2.jpg'),
+              require('./img/Kanen-Storr-Mason-Smith1.jpg'),require('./img/Kurt-Mode-Kenny-Astle.jpg'),
+              require('./img/Matt-Wilhelm-Michael-Billingsley.jpg'),require('./img/Matthew-Schmitt-Jens-Lantz.jpg')
             ]);
         this.state = {
           newTennis: true,
