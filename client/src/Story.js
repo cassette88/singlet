@@ -71,8 +71,13 @@ class Story extends React.Component  {
               require('./img/paul-bianchi.jpg'),require('./img/zac-carson-branson-ashworth.jpg'),
               require('./img/ac-headlee.jpg'),require('./img/anthony-valencia-jonathan-carrera.jpg'),
               require('./img/dalton-macri-esco-walker.jpg'),require('./img/tyler-berger-seth-harrington.jpg'),
-              require('./img/zach-sherman-cam-skycora.jpg'),require('./img/lorenzo-de-la-riva-logan-parks.jpg')
-        ]);
+              require('./img/zach-sherman-cam-skycora.jpg'),require('./img/lorenzo-de-la-riva-logan-parks.jpg'),
+
+              require('./img/trent-olsen-ethan-rotundo.jpg'),require('./img/matt-finesilver-keaton-subjeck2.jpg'),
+              require('./img/matt-finesilver-keaton-subjeck.jpg'),require('./img/lorenzo-de-la-riva-logan-parks2.jpg'),
+              require('./img/kyle-gilva-jacoby-ward.jpg'),require('./img/Jacob Macalolooy vs Hunter Marko2.jpg'),
+              require('./img/Jacob Macalolooy vs Hunter Marko.jpg'),require('./img/Coleman-Hammond-Seth Harrington.jpg')
+            ]);
         this.state = {
           newTennis: true,
           tennis:[]
