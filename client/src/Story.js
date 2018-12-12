@@ -68,7 +68,10 @@ class Story extends React.Component  {
               require('./img/ben-darmstaudt.jpg'),require('./img/mike-long-trevor-wilson.jpg'),
               require('./img/steven-lawrence-hunter-washburn.jpg'),require('./img/hunter-stieber-michael-nevinger.jpg'),
               require('./img/chaz-polson-dakota-juarez.jpg'),require('./img/zach-sherman-cam-sykora.jpg'),
-              require('./img/paul-bianchi.jpg'),require('./img/zac-carson-branson-ashworth.jpg')
+              require('./img/paul-bianchi.jpg'),require('./img/zac-carson-branson-ashworth.jpg'),
+              require('./img/ac-headlee.jpg'),require('./img/anthony-valencia-jonathan-carrera.jpg'),
+              require('./img/dalton-macri-esco-walker.jpg'),require('./img/tyler-berger-seth-harrington.jpg'),
+              require('./img/zach-sherman-cam-skycora.jpg'),require('./img/lorenzo-de-la-riva-logan-parks.jpg')
         ]);
         this.state = {
           newTennis: true,
