@@ -74,13 +74,22 @@ class Story extends React.Component  {
               require('./img/zach-sherman-cam-skycora.jpg'),require('./img/lorenzo-de-la-riva-logan-parks.jpg'),
               require('./img/trent-olsen-ethan-rotundo.jpg'),require('./img/matt-finesilver-keaton-subjeck2.jpg'),
               require('./img/matt-finesilver-keaton-subjeck.jpg'),require('./img/lorenzo-de-la-riva-logan-parks2.jpg'),
-              require('./img/kyle-gilva-jacoby-ward.jpg'),require('./img/Jacob Macalolooy vs Hunter Marko2.jpg'),
-              require('./img/Jacob Macalolooy vs Hunter Marko.jpg'),require('./img/Coleman-Hammond-Seth Harrington.jpg'),
+              require('./img/kyle-gilva-jacoby-ward.jpg'),require('./img/Jacob-Macalolooy-Hunter-Marko2.jpg'),
+              require('./img/Jacob-Macalolooy-Hunter-Marko.jpg'),require('./img/Coleman-Hammond-Seth Harrington.jpg'),
               require('./img/Anthony-Lombardo-Hank-Swalla.jpg'),require('./img/Christian-Moody-Luke-Welch.jpg'),
               require('./img/Dominic-Forys-DJ-Lloren.jpg'),require('./img/Dominic-Forys-DJ-Lloren2.jpg'),
               require('./img/Hank-Swalla-Anthony-Lombardo2.jpg'),require('./img/Kanen-Storr-Mason Smith2.jpg'),
               require('./img/Kanen-Storr-Mason-Smith1.jpg'),require('./img/Kurt-Mode-Kenny-Astle.jpg'),
-              require('./img/Matt-Wilhelm-Michael-Billingsley.jpg'),require('./img/Matthew-Schmitt-Jens-Lantz.jpg')
+              require('./img/Matt-Wilhelm-Michael-Billingsley.jpg'),require('./img/Matthew-Schmitt-Jens-Lantz.jpg'),
+              require('./img/Dylan-Lydy-Tyrel-White2.jpg'),require('./img/Dylan-Lydy2.jpg'),
+              require('./img/Kyle-Gliva-Matt-Ontiveros.jpg'),require('./img/Luke-Pletcher-Korbin-Myers.jpg'),
+              require('./img/Luke-Pletcher-Korbin-Myers2.jpg'),require('./img/Luke-Pletcher-Korbin Myers3.jpg'),
+              require('./img/Micah-Jordan-Luke-Weiland.jpg'),require('./img/Micah-Jordan-Luke-Weiland2.jpg'),
+              require('./img/Nate-Limmex-Tim-Rooney.jpg'),require('./img/Nicholas-Gil-Sal-Profaci.jpg'),
+              require('./img/Russell-Rohfling-AC-Headlee.jpg'),require('./img/Russell-Rohfling-AC-Headlee2.jpg'),
+              require('./img/Ryan-Christensen-Beau-Breske.jpg'),require('./img/Troy-Heilmann.jpg'),
+              require('./img/Tyrel-White.jpg'),require('./img/Zach-Davis-Kennedy-Monday.jpg'),
+
             ]);
         this.state = {
           newTennis: true,
