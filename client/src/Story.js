@@ -95,12 +95,16 @@ class Story extends React.Component  {
               require('./img/Jeric-Kasunic-Nathan-Traxler3.png'),require('./img/Jeric-Kasunic-Nathan-Traxler4.png'),
               require('./img/Jeric-Kasunic.png'),require('./img/Josh-Shields-Coleman-Hammond.png'),
               require('./img/Ke_Shawn-Hayes-Michael-Sprague.png'),require('./img/Kollin-Moore-Matt-Williams.png'),
-
-              require('./img/Nick-Zanetta-Kanen-Storr.png'),require('./img/Nick-Zanetta-Kanen-Storr2.png'),
+             require('./img/Nick-Zanetta-Kanen-Storr.png'),require('./img/Nick-Zanetta-Kanen-Storr2.png'),
               require('./img/Nick-Zanetta-Kanen-Storr3.png'),require('./img/Nick-Zanetta-Kanen-Storr4.png'),
               require('./img/Paul-Bianchi-Donald-Keeley.png'),require('./img/Paul-Bianchi-Donald-Keeley1.png'),
               require('./img/Stevie-Cervantes-Wade French.png'),require('./img/Stevie-Cervantes-Wade-French2.png'),
               require('./img/Zach-Zavatsky-Steven-Schneider.png'),require('./img/NIcholas-Gil3.png'),
+         
+              require('./img/Korbin-Myers-Zach-Sherman.png'),require('./img/Korbin-Myers-Zach-Sherman2.png'),
+              require('./img/Luke-Pletcher-Stevan-Micic.png'),require('./img/Matt-Williams-3063.png'),
+              require('./img/Matt-Williams-Stephen-Loiseau.png'),require('./img/NIcholas-Gil-Colt-Schilling.png'),
+         
             ]);
         this.state = {
           newTennis: true,
