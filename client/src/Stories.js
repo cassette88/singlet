@@ -88,7 +88,7 @@ export default class Stories extends Component {
                         </div>
                       
                         <div align="center">
-                        <button align="center" type="button" class="btn btn-success"><a onClick={this.scrollToTop}>To the top!</a></button>
+                        <button align="center" type="button" className="btn btn-success"onClick={this.scrollToTop}>To the top</button>
 
                        </div>
                         </div>

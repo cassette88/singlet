@@ -6,15 +6,15 @@ var uniqueRandomArray = require('unique-random-array');
 // import yianni from './img/yianni-cam.jpg';
 
 
-let rBackImg = [require('./img/nick-wanzek-keilan-torres.jpg'),require('./img/yianni-cam.jpg')]
+// let rBackImg = [require('./img/nick-wanzek-keilan-torres.jpg'),require('./img/yianni-cam.jpg')]
 
-const divStyle ={
-  backgroundImage: `url(${rBackImg})`,
+//const divStyle ={
+  // backgroundImage: `url(${rBackImg})`,
   //backgroundImage: 'url("https://images.unsplash.com/photo-1535480436112-07697fcbcbea?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=31f51839cb4319385e043204acd13491&auto=format&fit=crop&w=400&q=60")',
  // backgroundSize: 'contain',
-  backgroundPosition: 'center',
-  backgroundSize: 'cover',
-  };
+  // backgroundPosition: 'center',
+  // backgroundSize: 'cover',
+  // };
 
 let title = "";
 let quote = "";
@@ -89,7 +89,12 @@ class Story extends React.Component  {
               require('./img/Russell-Rohfling-AC-Headlee.jpg'),require('./img/Russell-Rohfling-AC-Headlee2.jpg'),
               require('./img/Ryan-Christensen-Beau-Breske.jpg'),require('./img/Troy-Heilmann.jpg'),
               require('./img/Tyrel-White.jpg'),require('./img/Zach-Davis-Kennedy-Monday.jpg'),
-
+              require('./img/Ali Naser vs Anthony Tutolo.png'),require('./img/Austin DeSanto vs Dom Forys.png'),
+              require('./img/Bo-Jordan-Keaton-Subjeck-1566.png'),require('./img/Jeric-Kasunic-Matt-Williams.png'),
+              require('./img/Jeric-Kasunic-Nathan-Traxler.png'),require('./img/Jeric-Kasunic-Nathan-Traxler2.png'),
+              require('./img/Jeric-Kasunic-Nathan-Traxler3.png'),require('./img/Jeric-Kasunic-Nathan-Traxler4.png'),
+              require('./img/Jeric-Kasunic.png'),require('./img/Josh-Shields-Coleman-Hammond.png'),
+              require('./img/Ke_Shawn-Hayes-Michael-Sprague.png'),require('./img/Kollin-Moore-Matt-Williams.png'),
             ]);
         this.state = {
           newTennis: true,
@@ -121,7 +126,7 @@ render(){
  return (   
    
   
-  <div style={divStyle}className="col-lg-4 col-md-6 col-sm-6 space" align="center">
+  <div className="col-lg-4 col-md-6 col-sm-6 space" align="center">
  
      <div className="card-body bottom">
      <Zoom>
