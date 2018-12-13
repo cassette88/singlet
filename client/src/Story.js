@@ -139,10 +139,11 @@ render(){
   <div className="col-lg-4 col-md-6 col-sm-6 space" align="center">
  
      <div className="card-body bottom">
+     <h3 className="cordele">{amp}</h3>
      <Zoom>
      <img src ={rImages()} className="img-fluid bottom"  alt="wrestler" />
      </Zoom>
-     <h3 className="cordele">{amp}....</h3>
+   
      <Fade bottom>
      <h2 className="cordele_2">{space}</h2>
      </Fade>
