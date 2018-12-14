@@ -69,7 +69,7 @@ export default class Stories extends Component {
                         <div>
                         {/* <div className="d-flex flex-row justify-content-center"> */}
                         <h1 align="center">College Singlet</h1>
-                        <h2 align="center">Real Pictures. Random Headlines.</h2>
+                        <h2 align="center">Real Pictures. Wrestling Headlines.</h2>
                        
                        <div>
                         <div>
