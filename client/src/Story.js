@@ -119,7 +119,12 @@ title = storyTitle.replace(/&#39;/g, "'");
 quote = title.replace(/&quot;/g, " \" ");
 amp = quote.replace(/&amp;/g, "and");
 
-const descript = this.props.description;
+let descript = this.props.description;
+if (descript === null){
+  descript = ""
+}
+
+// const descript = this.props.description;
 title_ = descript.replace(/&#39;/g, "'");
 quote_ = title_.replace(/&quot;/g, " \" ");
 amp_ = quote_.replace(/&amp;/g, "and");

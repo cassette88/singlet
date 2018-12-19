@@ -13,8 +13,8 @@ return (
       </p>
       </Col>
       <Col md="6">
-      <p>* All photographs  (click a name for more):</p>
-      <a href="https://ckramerphoto.smugmug.com/"><h5 className="title">Cam Kramer</h5></a>
+      <p>* Most photographs  (click a name for more):</p>
+      {/* <a href="https://ckramerphoto.smugmug.com/"><h5 className="title">Cam Kramer</h5></a> */}
       <ul>
         <li className="list-unstyled">
           <a href="https://www.flickr.com/photos/chrishunkeler/"><h5>Chris Hunkeler</h5></a>
