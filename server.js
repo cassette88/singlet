@@ -19,6 +19,8 @@ console.log("Wrestling database is flowing");
 //enable ssl redirect
 app.use(sslRedirect());
 
+function getParsed() {
+
 const college = 
 {
     "rss": `${feedURL}1390917818166769034`,
@@ -69,6 +71,10 @@ rssGeneral.work(function (err, success) {
         console.log(err)
     }
 })
+console.log("I've been parsed");
+};
+
+setInterval(getParsed, 8888888)
 
 app.use(express.static(__dirname + '/public'));
 
