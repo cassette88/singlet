@@ -74,7 +74,10 @@ rssGeneral.work(function (err, success) {
 console.log("I've been parsed");
 };
 
-setInterval(getParsed, 8888888)
+//2.4 hours ? or 3.4 hours
+//setInterval(getParsed, 8888888)
+
+setInterval(getParsed, 5400000)
 
 app.use(express.static(__dirname + '/public'));
 
