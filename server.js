@@ -1,4 +1,4 @@
-const sslRedirect = require('heroku-ssl-redirect');
+//const sslRedirect = require('heroku-ssl-redirect');
 const express = require('express');
 const app = express();
 const path = require('path');
@@ -17,7 +17,7 @@ console.log("Wrestling database is flowing");
 })
 
 //enable ssl redirect
-app.use(sslRedirect());
+//app.use(sslRedirect());
 
 function getParsed() {
 
