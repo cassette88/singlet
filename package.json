@@ -19,6 +19,6 @@
     "heroku-ssl-redirect": "0.0.4",
     "mongodb": "^3.5.2",
     "rss-node-mongo": "^1.0.3",
-    "rss-parser": "^3.7.4"
+    "rss-parser": "^3.7.5"
   }
 }
